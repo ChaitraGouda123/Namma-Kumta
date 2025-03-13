@@ -6,7 +6,7 @@
     flex-direction: column;
     border-bottom: 1px solid rgb(161, 161, 161);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px;
-   border:2px solid red;
+   border:2px solid rgb(209, 207, 207);
   }
  .header {
     border-bottom: 2px solid rgb(207, 207, 207);
@@ -21,8 +21,8 @@
      display: flex;
      align-items: center;
      gap: 20px;
-     margin-left: 76%;
-     border:2px solid blue;
+     margin-left: 73%;
+     /* border:2px solid blue; */
    }
   .name{
     display: flex;
@@ -41,15 +41,15 @@
   .department {
     display: flex;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: 27px;
     font-weight: bold;
     /* border:2px solid blue; */
   }
 
   .police-img{
-    border:2px solid black;
-    padding:10px;
+    border:1px solid rgb(103, 101, 101);
+    padding: 7px;
     display: flex;
   }
   .police-img img{
@@ -66,8 +66,8 @@
   }
 
   .forest-img{
-    border:2px solid black;
-    padding:10px;
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
     display: flex;
   }
   .forest-img img{
@@ -84,8 +84,8 @@
   }
   
   .tahsildar-img{
-    border:2px solid black;
-    padding:10px;
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
     display: flex;
   }
   .tahsildar-img img{
@@ -102,8 +102,8 @@
   }
 
   .Municipal-img{
-    border:2px solid black;
-    padding:10px;
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
     display: flex;
   }
   .Municipal-img img{
@@ -120,8 +120,8 @@
   }
 
   .education-img{
-    border:2px solid black;
-    padding:10px;
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
     display: flex;
   }
   .education-img img{
@@ -135,4 +135,213 @@
     font-family: sans-serif;
     font-size: 20px;
     margin-top: 10px;
+  }
+
+  .health-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:10px;
+    display: flex;
+  }
+  .health-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .health{
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .electricity-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .electricity-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .electricity{
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .postal-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .postal-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .postal{
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .transport-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .transport-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .transport{
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .postal-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .postal-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .postal{
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .transport-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .transport-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .transport{
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+
+
+  .agriculture-img{
+    border:1px solid rgb(103, 101, 101);
+    padding: 7px;
+    display: flex;
+  }
+  .agriculture-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .agriculture{
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .irrigation-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .irrigation-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .irrigation {
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .judiciary-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .judiciary-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .judiciary {
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 1OPX;
+  }
+
+  .food-img{
+    border:1px solid rgb(103, 101, 101);
+    padding:7px;
+    display: flex;
+  }
+  .food-img img{
+    width: 100%;
+    max-width: 50px;
+   
+  }
+  .food {
+    display:flex;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 1OPX;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+    box-shadow: 0 -2px 10px #0000001a;
+    padding: 10px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .footer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-item {
+      flex: 1;
+      text-align: center;
+      color: #333;
+      cursor: pointer;
+      transition: transform .2s ease, color .2s ease;
   }

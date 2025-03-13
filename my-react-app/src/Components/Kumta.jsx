@@ -5,6 +5,10 @@ import { LuUserRound } from "react-icons/lu";
 import { BsGlobe2 } from "react-icons/bs";
 import { RiGlobalLine } from "react-icons/ri";
 import { IoIosArrowBack } from "react-icons/io";
+import { GoSearch } from "react-icons/go";
+import { VscHome } from "react-icons/vsc";
+import { IoIosAddCircleOutline } from "react-icons/io";
+import { MdOutlineLightbulb } from "react-icons/md";
 
 const Kumta = () => {
     return(
@@ -54,16 +58,74 @@ const Kumta = () => {
       </div>
 
       <div className="education-img">
-        <img src="https://img.icons8.com/?size=100&id=QOQmSQXbRdOb&format=png&color=000000" alt="education" />
+        <img src="https://img.icons8.com/?size=100&id=MI0fNZjDF6Is&format=png&color=000000" alt="education" />
         <div className="education">Aducation Department</div>
       </div>
-          </div> 
-            
 
-        
+      <div className="health-img">
+        <img src="https://img.icons8.com/?size=100&id=rHzE15d96vrb&format=png&color=000000" alt="health" />
+        <div className="health">Health Department</div>
+      </div>
 
-    );
+      <div className="postal-img">
+        <img src="https://img.icons8.com/?size=100&id=errin0a_0xeX&format=png&color=000000" alt="postal" />
+        <div className="postal">Postal Department</div>
+      </div>
+
+      <div className="transport-img">
+        <img src="https://img.icons8.com/?size=100&id=errin0a_0xeX&format=png&color=000000" alt="transport" />
+        <div className="transport">Transport Department</div>
+      </div>
+
+      <div className="postal-img">
+        <img src="https://www.flaticon.com/free-icon/mail_2569963?term=post&page=1&position=43&origin=search&related_id=2569963" alt="postal" />
+        <div className="postal">Postal Department</div>
+      </div>
+
+      <div className="transport-img">
+        <img src="https://img.icons8.com/?size=100&id=errin0a_0xeX&format=png&color=000000" alt="transport" />
+        <div className="transport">Transport Department</div>
+      </div>
+
+      <div className="agriculture-img">
+        <img src="https://img.icons8.com/?size=100&id=YfGHmtLxwYmh&format=png&color=000000" alt="agriculture" />
+        <div className="agriculture">Agriculture Department</div>
+      </div>
+
+      <div className="irrigation-img">
+        <img src="https://img.icons8.com/?size=100&id=YfGHmtLxwYmh&format=png&color=000000" alt="irrigation" />
+        <div className="irrigation">Irrigation Department</div>
+      </div>
+
+      <div className="judiciary-img">
+        <img src="https://img.icons8.com/?size=100&id=YfGHmtLxwYmh&format=png&color=000000" alt="judiciary" />
+        <div className="judiciary">Judiciary </div>
+      </div>
+
+      <div className="food-img">
+        <img src="https://img.icons8.com/?size=100&id=YfGHmtLxwYmh&format=png&color=000000" alt="food" />
+        <div className="food">Food & Civil Supplies</div>
+        <div className="footer">
+        <div className="footer2">
+          <div className="footer-item"><VscHome size={"20px"}/>
+          <div>Home</div></div>
+          <div className="footer-item"><GoSearch size={"20px"}/>
+          <div>Search</div></div>
+          <div className="footer-item"><IoIosAddCircleOutline size={"20px"}/>
+          <div>Add/join</div></div>
+          <div className="footer-item"><MdOutlineLightbulb size={"20px"}/>
+          <div>Alerts</div></div>
+        </div>
+      </div>
+
+
+
+      
+    </div>
+    </div>
+      
+      
+);
 };
-
 
 export default Kumta;
